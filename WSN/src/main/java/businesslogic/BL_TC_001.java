@@ -151,7 +151,7 @@ public class BL_TC_001 extends PO_TC_001 {
                 Thread.sleep(500);
                 String href = option.getAttribute("href");
 
-                if (href.startsWith("http://www.moneycorp.com/en-us/"))
+                if (href.startsWith("https://www.moneycorp.com/en-us/"))
                 {
                     System.out.println("Link Start with  https://www.moneycorp.com/en-us/");
                 }
